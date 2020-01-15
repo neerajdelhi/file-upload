@@ -32,11 +32,5 @@
 		}
 		echo implode(',',$img);
 		print_r($img);
-		die;
-		if(move_uploaded_file($_FILES['fileupload']['tmp_name'],$filename)){
-			echo "File uploaded successfully";
-		}else{
-			echo "file not uploaded";
-		}
 	}
 ?>
